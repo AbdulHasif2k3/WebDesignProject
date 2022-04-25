@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="shortcut icon" href="Images/moviegologo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar !-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="selected" href="films.html">Films</a>
+        <a href="about_us.html">About us</a>
+        <a class="login" href="login.html">Sign in</a>
+        <a class="register" href="register.html">Register</a>
+    </nav>
+
+<main>
+    <form class="filmsearch" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search for films..." name="search">
+    </form>
+    <form  class="genresearch" style="margin:auto;max-width:300px;">
+                    <select id="genre" name="genre" style="cursor:pointer;">
+                        <option value="All">All genres</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Sciencefiction">Sciencefiction</option>
+                        <option value="Romance">Romance</option>
+                    </select>
+    </form>
+    <div class="flex-container">
+        <div><a href="register.html" target="_blank"><img src="Images/Joker.jpg" alt="Joker" class="imagesize"></a></div>
+        <div><a href="register.html" target="_blank"><img src="Images/Christmas_Belle.png" alt="Christmas Belle" class="imagesize"></a></div>
+        <div><img src="Images/Shrek.jpg" alt="Shrek" class="imagesize"></div>
+        <div><img src="Images/Space_Jam.jpg"  alt="Space Jam" class="imagesize"></div>
+        <div><img src="Images/James_Bond.jpg" alt="James Bond" class="imagesize"></div>
+        <div><img src="Images/Avatar.jpg" alt="Avatar" class="imagesize"></div>
+        <div><img src="Images/Life_Brian.jpg" alt="Life of Brian" class="imagesize"></div>
+    </div>
+    </main>
+</body>
+</html>
