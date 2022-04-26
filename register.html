@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Films</title>
     <link rel="stylesheet" href="style.css">
+    <!--Can't scroll down further than 800px-->
     <style>
         body {
             height: 800px;
@@ -37,26 +38,28 @@
                 <form action="films2.html">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" placeholder="Your username..." required>
-
+<!-- Makes it so the email input has to have something before the @, after the @ and a dot and at least two letters after the dot-->
                     <label for="email">E-mail</label>
                     <input pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}" type="text" id="email" name="email"
                         placeholder="Your E-mail..." required>
-
+<!-- password input -->
                     <label for="password">Password</label>
+                    <!-- the type="password" makes the password hidden -->
                     <input type="password" id="password" name="password" placeholder="Your password..." required>
                     <label for="passwordrep">Repeat your password</label>
                     <input type="password" id="passwordrep" name="passwordrep" placeholder="Repeat your password..."
                         required>
 
-
+<!-- Subscription plan form -->
                     <p>Select your plan</p>
+                    <!-- Because it's type="radio" you must pick one of the three -->
                     <input type="radio" id="free" name="plan" value="free" checked>
                     <label for="free">Free</label><br>
                     <input type="radio" id="month" name="plan" value="month">
                     <label for="month">$5/month</label><br>
                     <input type="radio" id="year" name="plan" value="year">
                     <label for="year">$50/year</label><br><br>
-
+<!-- copied from the internet -->
                     <label for="country">Country</label>
                     <select id="country" name="country">
                         <option value="Afghanistan">Afghanistan</option>
@@ -309,12 +312,11 @@
                         <option value="Zambia">Zambia</option>
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
-
+<!-- iban input -->
                     <label for="iban">Iban</label>
                     <input type="text" id="iban" name="iban">
                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                    <label for="terms"> I agree to the <a href="privacyverklaring.html" target="_blank">terms of
-                            service</a></label>
+                    <label for="terms"> I agree to the terms of service</label>
 
                     <input type="submit">
                 </form>

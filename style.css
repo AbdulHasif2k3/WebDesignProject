@@ -3,13 +3,13 @@ body {
   margin: 0;
   background-color: #111;
 }
-
+/*moviego header*/
   h1 {
     text-align:center;
     font-family:verdana;
     text-shadow: -1px 0 #9D103B, 0 1px #9D103B, 1px 0 #9D103B, 0 -1px #9D103B;
   }
-
+/* best streaming site*/
   h3 {
     text-align:center;
     font-family:verdana;
@@ -17,7 +17,7 @@ body {
     margin-bottom: 10px;
 
   }
-
+/* just added*/
   h4  {
     text-align:left;
     font-family: verdana;
@@ -119,7 +119,7 @@ div.imagelist {
   width: 350px;
   height: 500px;
   }
-
+/* this is the ''new'' on bottom right on index page'' */
   .newfilm {
     position: absolute;
     bottom: 5px;
@@ -151,7 +151,7 @@ div.imagelist {
 .contain {
   position:relative;
 }
-
+/*register background form*/
 div.form {
   border-radius: 5px;
   background-color: #dcdde1;
@@ -163,7 +163,7 @@ div.form {
   padding: 10px;
   flex: 70%;
 }
-
+/*for every form that can have an input */
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -173,7 +173,7 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+/*same as above but for password*/
 input[type=password], select {
   width: 100%;
   padding: 12px 20px;
@@ -183,7 +183,7 @@ input[type=password], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+/*submit button*/
 input[type=submit] {
   width: 100%;
   background-color: #9D103B;
@@ -194,11 +194,11 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/* checkbox, for terms and condition but can pick multiple*/
 input[type=checkbox] {
   cursor: pointer;
 }
-
+/* radio, multiple choice, can only pick one*/
 input[type=radio] {
   cursor: pointer;
 }
@@ -276,7 +276,7 @@ h2.header {
   padding: 10px 0;
   font-family: Verdana;
 }
-
+/*film search bar*/
 form.filmsearch input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -290,7 +290,7 @@ form.filmsearch::after {
   clear: both;
   display: table;
 }
-
+/*drop down*/
 form.genresearch {
   padding: 10px;
   font-size: 17px;
@@ -305,10 +305,6 @@ form.genresearch {
 
 .cardcontainer {
   padding: 2px 16px;
-}
-
-.requirementsbackground {
-  background-color: rgba(255, 0, 0, 0.301)
 }
 
 .center {
@@ -335,7 +331,7 @@ form.genresearch {
   border-radius: 30px;
   transition: transform .2s;
 }
-
+/*makes image go bigger when hovered on */
 .imagesize:hover{
 transform: scale(1.2);
 }
@@ -353,7 +349,7 @@ transform: scale(1.2);
   text-align: center;
 }
 
-/* Semantics */
+/* Semantics articles,sections*/
 
 footer {
   background-color: black;
@@ -388,9 +384,6 @@ aside {
   float:left;
 }
 
-aside:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-}
 
 article {
   background-color: rgba(12, 12, 12, 0.507);
@@ -403,13 +396,3 @@ article {
   text-align: left;
 }
 
-div.requirementsbackground th {
-  font-weight: bold;
-  font-family: Verdana;
-  font-size: large;
-}
-
-div.requirementsbackground tr {
-  font-family: Verdana;
-  font-size: large;
-}
